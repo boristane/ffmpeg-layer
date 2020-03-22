@@ -2,6 +2,7 @@ service: ffmpeg-layer
 frameworkVersion: ">=1.34.0 <2.0.0"
 provider:
   name: aws
+  region: eu-west-2
 layers:
   ffmpeg:
     path: layer

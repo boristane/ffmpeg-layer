@@ -10,7 +10,7 @@ layers:
 resources:
   Outputs:
     FfmpegLayerExport:
-        Value:
-          Ref: FfmpegLambdaLayer
-        Export:
-          Name: FfmpegLambdaLayer
+      Value:
+        Ref: FfmpegLambdaLayer
+      Export:
+        Name: FfmpegLambdaLayer

@@ -13,7 +13,7 @@ if [[ -n "$stage" ]]; then
     rm ffmpeg-git-amd64-static.tar.xz
     mv ffmpeg-git-*-amd64-static ffmpeg
     popd
-    sls deploy --$stage
+    sls deploy --stage $stage
 else
     echo "argument error"
 fi
